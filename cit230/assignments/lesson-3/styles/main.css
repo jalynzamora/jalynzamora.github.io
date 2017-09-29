@@ -15,6 +15,7 @@ margin: 10px;
     width:100%;
     overflow: hidden;
     padding-left: 100%;
+    animation: marquee 15s linear infinite;
 }
 
 @keyframes marquee {
