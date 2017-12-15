@@ -150,6 +150,43 @@ img {
     color: none;
 }
 
+table {
+	border-collapse: collapse;
+	border: 2px solid rgb(200, 200, 200);
+	letter-spacing: 1px;
+	font-size: 0.8rem;
+	margin-top: 1em;
+}
+
+thead {
+	background-color: #7fb9c2;
+	color: black;
+}
+
+tr th {
+	background-color:  #0381D3;
+	color: white;
+}
+
+tbody {
+	background-color: lightblue;
+}
+
+tfoot {
+	background-color: #0381D3;
+}
+
+th {
+	border: 1px solid rgb(190, 190, 190);
+	padding: 10px 20px;
+}
+
+td {
+	text-align: center;
+	border: 1px solid rgb(190, 190, 190);
+	padding: 10px 20px;
+}
+
 
 footer {
 	text-align: center;
