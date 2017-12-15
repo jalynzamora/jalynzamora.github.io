@@ -128,6 +128,29 @@ img {
 	margin: .5em;
 }
 
+.grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+
+}
+
+.grid div img{
+    width: 250px;
+    height: 200px;
+
+}
+
+.grid div img:hover {
+    box-shadow: none;
+    color: none;
+}
+
+.grid div img:active {
+    color: none;
+}
+
+
 footer {
 	text-align: center;
 }

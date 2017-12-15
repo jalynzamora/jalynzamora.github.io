@@ -1,7 +1,6 @@
-@media only screen and (min-width: 64em) {
-  /* Only CSS rules that need to be changed to meet the layout needs from medium to large/wide go in here */
-    
-	header img{
+	@media only screen and (min-width: 64em) {
+	/* Only CSS rules that need to be changed to meet the layout needs from medium to large/wide go in here */
+	header img {
 		width: 25%;
 	}
 	nav button {
@@ -19,25 +18,39 @@
 		margin: 0 0 0 0;
 		padding: 0;
 	}
-	nav ul{
+	nav ul {
 		list-style-type: none;
 		padding: 0;
 		margin: 0 0 0 0;
 	}
-	nav ul li{
-		float:left;
+	nav ul li {
+		float: left;
 		width: 16.66%;
 		text-align: center;
 		margin: 0 0 0 0;
 	}
-	
 	footer {
-	display: flex;
-	justify-content: space-between;
-	padding: .5em;
-}
-	
-footer img {
-	display: inline;
-	width: 45px;
-}
+		display: flex;
+		justify-content: space-between;
+		padding: .5em;
+	}
+	footer img {
+		display: inline;
+		width: 45px;
+	}
+	.grid {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-gap: 10px;
+	}
+.grid div img{
+		width: 250px;
+		height: 200px;
+	}
+	.grid div img:hover {
+		box-shadow: 6px 6px 10px;
+		color: dimgray;
+	}
+	.grid div img:active {
+		color: #000;
+	}
