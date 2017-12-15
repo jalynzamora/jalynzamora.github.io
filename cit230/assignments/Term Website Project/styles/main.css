@@ -1,0 +1,137 @@
+* {
+	box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Questrial|Vollkorn|Lobster');
+h1, h3{
+	text-align: center;
+	font-family:'Questrial', sans-serif;
+}
+h2
+ {
+	font-family: 'Lobster', cursive;
+}
+body {
+	font-size: 16px;
+	display: flex;
+	flex-direction: column;
+	/* Declare the base font-family - from google font api or other */
+}
+
+header,
+nav,
+main,
+footer {
+	/* the comma means apply the following CSS declarations to all of the listed elements */
+	/* Declare the maximum width and other main element rules to limit the stretch on wide views */
+}
+
+header img {
+	width: 100%;
+}
+
+header h1 {
+	color: gray;
+}
+
+body {
+	background-color: #E5E8E8;
+}
+
+.topNav ul {
+	display: none;
+}
+
+.topNav.responsive ul {
+	float: none;
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+}
+
+.map{
+	width: 400;
+	height: 300;
+}
+
+#content {
+	width: 85%;
+	margin: 0 auto;
+	font-family: 'Vollkorn', serif;
+}
+
+nav {}
+
+nav button {}
+
+nav ul {}
+
+nav ul li {
+	display: flex;
+	padding: 8px;
+	background-color: lightblue;
+}
+
+nav ul li a {
+	color: black;
+}
+
+nav ul li.active a {
+	color: gray;
+}
+
+nav ul li a:hover {
+	color: white;
+}
+
+#banner img {
+	width: 100%;
+}
+
+#top-row {
+	background-color: #0381D3;
+	padding: 1em;
+	margin-top: 1em;
+}
+
+#middle-row {
+	background-color: lightblue;
+	padding: 1em;
+	margin-top: 1em;
+}
+
+#bottom-row {
+	text-align: center;
+	width: 60%;
+	margin: 0 auto;
+}
+
+section {
+	padding: 1em;
+}
+
+#top-row,
+#middle-row {
+	display: flex;
+	flex-flow: row wrap;
+	align-items: center;
+}
+
+img {
+	max-width: 100%;
+}
+
+.leftcol,
+.rightcol {
+	width: 48%;
+	flex: 1 0 15em;
+	margin: .5em;
+}
+
+footer {
+	text-align: center;
+}
+
+footer img {
+	display: none;
+}
