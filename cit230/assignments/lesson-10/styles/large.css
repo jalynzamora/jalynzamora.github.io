@@ -1,0 +1,28 @@
+@media only screen and (min-width: 64em) {
+	/* Only CSS rules that need to be changed to meet the layout needs from medium to large/wide go in here */
+	
+	header img{
+		width: 10%;
+		height: 10%;
+	}
+	article p.town-article img {
+		width: 29.333%;
+	}
+	.grid {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-gap: 10px;
+	}
+	img,
+	div .grid {
+		width: 250px;
+		height: 200px;
+	}
+	.grid div img:hover {
+		box-shadow: 6px 6px 10px;
+		color: dimgray;
+	}
+	.grid div img:active {
+		color: #000;
+	}
+}

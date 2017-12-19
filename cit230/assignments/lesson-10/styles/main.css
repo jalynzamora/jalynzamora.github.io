@@ -1,0 +1,140 @@
+* {
+	box-sizing: border-box;
+}
+
+
+/* This wildcard applies to all elements ensuring a box layout model */
+
+body {
+	font-size: 16px;
+	display: flex;
+	flex-direction: column;
+	/* Declare the base font-family - from google font api or other */
+}
+
+header,
+nav,
+main,
+footer {
+	/* the comma means apply the following CSS declarations to all of the listed elements */
+	/* Declare the maximum width and other main element rules to limit the stretch on wide views */
+}
+
+header {}
+
+header h1 {
+	color: gray;
+}
+
+header img {
+width: 25%;
+	height: 25%;
+}
+
+header .subheading {}
+
+.topNav ul {
+	display: none;
+}
+
+.topNav.responsive ul {
+	float: none;
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+}
+
+nav{}
+nav button {}
+nav ul {}
+nav ul li{
+	display: flex;
+	padding: 8px;
+	background-color: lightblue;
+}
+
+nav ul li a {
+	color: black;
+}
+
+nav ul li.active a {
+	color: gray;
+}
+
+nav ul li a:hover {
+	color: white;
+}
+main {
+	display: flex;
+	flex-direction: column;
+}
+
+main h1{
+	text-align: center;
+}
+
+main div img {
+	align-content: center;
+}
+main h2 {
+	color: #f1c40f;
+}
+
+main figure {
+	margin: 0 0 .2rem 2%;
+	width: 96%;
+}
+
+main figure img {
+	width: 100%;
+}
+
+section {
+        text-align: center;
+    }
+
+
+.forecast {
+	display: none;
+}
+
+article p.town-article img {
+	/* This structure refers to img elements that are the posterity of paragraph elements within artcle elements */
+	width: 92%;
+	/* fill the page in the small/phone view */
+	margin: 0 0 .2rem 2%;
+	align-content: center;
+}
+
+footer {
+	text-align: center;
+}
+
+footer aside {}
+
+footer>p {}
+
+.grid {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-gap: 10px;
+}
+
+.grid div img {
+	width: 250px;
+	height: 200px;
+}
+
+.grid div img:hover {
+	box-shadow: none;
+	color: none;
+}
+
+.grid div img:active {
+	color: none;
+}
+
+/* This structure refers to p elements that are direct children of the footer element */
+
+
+/* Other Class Selectors */

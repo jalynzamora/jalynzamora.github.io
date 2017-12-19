@@ -1,0 +1,64 @@
+<!DOCTYPE HTML>
+<html lang="en-us">
+<head>
+<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <meta name="Jalyn Zamora" content="Keeping up with the currents">
+    <meta name="description" content="page description placeholder">
+    <!-- external style references in the proper cascading order -->
+    <link href="https://fonts.googleapis.com/css?family=#" rel="stylesheet">
+    <!-- Google API font reference -->
+    <link href="styles/normalize.css" rel="stylesheet">
+    <!-- normalize useragent/browser defaults -->
+    <link href="styles/main.css" rel="stylesheet">
+    <!-- default styles - small/phone views -->
+    <link href="styles/medium.css" rel="stylesheet">
+    <!-- medium/tablet views -->
+    <link href="styles/large.css" rel="stylesheet">
+    <!-- large/wide/desktop views -->
+    <link href="styles/gallery.css" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <img src="images/weather%20icon.png" alt="The site logo">
+        <h1>Keeping up with the currents</h1>
+        <div class="subheading">Weather it's good or bad, we report it.</div>
+    </header>
+
+    <!-- site navigation use placeholder references -->
+       <nav class="topNav" id="myTopNav">
+       <button onclick="toggleNavMenu()">&#9776;</button>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="franklin.html">Franklin</a></li>
+            <li><a href="greenville.html">Greenville</a></li>
+            <li><a href="springfield.html">Springfield</a></li>
+            <li><a href="#">Storm Center</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+    </nav>
+
+<div class="grid">
+        <div><a href="franklin.html"><img src="images/sunny.jpg" alt="sunny"><br>Sunny</a></div>
+        <div><a href="franklin.html"><img src="images/cloudy.jpg" alt="cloudy"><br>Cloudy</a></div>
+        <div><a href="franklin.html"><img src="images/rain.jpg" alt="rain"><br>Rain</a></div>
+        <div><a href="franklin.html"><img src="images/tornado.jpg" alt="tornado"><br>Tornado</a></div>
+        <div><a href="franklin.html"><img src="images/hurricane.jpg" alt="hurricane"><br>Hurricane</a></div>
+        <div><a href="franklin.html"><img src="images/lightning.jpg" alt="lightning"><br>Lightning</a></div>
+    </div>
+
+<footer>
+        <aside>
+            Keeping up with the currents<br>
+                   123 Main St.<br>
+                    Franklin, <br>
+                    (000)000-0000
+        </aside>
+        <p class="footer-bar">&copy;2017 All Rights Reserved | Keeping up with the currents | <span id="currentdate">Current Date Placeholder</span></p>
+    </footer>
+
+    <script src="scripts/hamburger.js" type="text/javascript"></script>
+    <script src="scripts/currentdate.js"></script>
+    
