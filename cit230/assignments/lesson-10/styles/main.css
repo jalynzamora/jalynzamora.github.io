@@ -69,13 +69,15 @@ main {
 	flex-direction: column;
 }
 
+
+img{
+	width: 100%;
+}
+
 main h1{
 	text-align: center;
 }
 
-main div img {
-	align-content: center;
-}
 main h2 {
 	color: #f1c40f;
 }

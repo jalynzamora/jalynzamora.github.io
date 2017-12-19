@@ -13,8 +13,7 @@
 		grid-template-columns: 1fr 1fr 1fr;
 		grid-gap: 10px;
 	}
-	img,
-	div .grid {
+	.grid div img {
 		width: 250px;
 		height: 200px;
 	}
