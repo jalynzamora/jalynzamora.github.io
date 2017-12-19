@@ -1,13 +1,9 @@
-function computeNum() {
-	
-	var textInput = get("aNum").value;
-	if (textInput.length < 3 || isNaN(textInput)) return; // Validation return nothing
-	
-	var theNumber = parseInt(textInput); // OK - parse string to number
-	var theValue = theNumber * Math.pow(Math.random(), 3);
-	
-	// Output - output to the div and round the number value to two decimal places
-	get("output").innerHTML = "The value is <strong>" + theValue.toFixed(2) + "</strong>!";
+function windChill(temp, speed){
+	var f = Math.round(35.74 + 0.6215 * temp - 35.75 * Math.pow(speed, 0.16) + 0.4275  * temp * Math.pow(speed, 0.16));
+	return f;
 }
+ 
+	var result = windChill(40, 5);
 
-function get(e) { return document.getElementById(e); }
+	document.getElementById('output').innerHTML = result;
+
