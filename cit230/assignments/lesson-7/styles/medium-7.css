@@ -15,40 +15,56 @@
 		margin: 0 0 0 0;
 		padding: 0;
 	}
-	nav ul{
+	nav ul {
 		list-style-type: none;
 		padding: 0;
 		margin: 0 0 0 0;
 	}
-	nav ul li{
-		float:left;
+	nav ul li {
+		float: left;
 		width: 16.66%;
 		text-align: center;
 		margin: 0 0 0 0;
 	}
-	
 	section.forecast {
 		display: block;
-	border-collapse: collapse;
-	letter-spacing: 1px;
-	font-size: 0.8rem;
-	text-align: center;
+		border-collapse: collapse;
+		letter-spacing: 1px;
+		font-size: 0.8rem;
+		text-align: center;
 	}
-th {
-	border: 1px solid rgb(190, 190, 190);
-	padding: 10px 20px;
+	th {
+		border: 1px solid rgb(190, 190, 190);
+		padding: 10px 20px;
+	}
+	td {
+		text-align: center;
+		border: 1px solid rgb(190, 190, 190);
+		padding: 10px 20px;
+	}
 }
 
-td {
-	text-align: center;
-	border: 1px solid rgb(190, 190, 190);
-	padding: 10px 20px;
+
+/* show the 10-day forecast with the medium view and up */
+
+article p.town-article img {
+	width: 62.666%;
+	float: left;
 }
-	}
-	/* show the 10-day forecast with the medium view and up */
-	article p.town-article img {
-		width: 62.666%;
-		float: left;
-	}
-	/* responsive images */
+
+
+/* responsive images */
+
+.grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+.grid div img:hover {
+	box-shadow: none;
+	color: none;
+}
+
+.grid div img:active {
+	color: none;
 }

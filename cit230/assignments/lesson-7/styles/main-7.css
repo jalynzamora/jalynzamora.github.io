@@ -44,10 +44,13 @@ header .subheading {}
 	text-align: left;
 }
 
-nav{}
+nav {}
+
 nav button {}
+
 nav ul {}
-nav ul li{
+
+nav ul li {
 	display: flex;
 	padding: 8px;
 	background-color: lightblue;
@@ -64,6 +67,7 @@ nav ul li.active a {
 nav ul li a:hover {
 	color: white;
 }
+
 main {
 	display: flex;
 	flex-direction: column;
@@ -102,6 +106,27 @@ footer {
 footer aside {}
 
 footer>p {}
+
+.grid {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-gap: 10px;
+}
+
+img,
+div .grid {
+	width: 250px;
+	height: 200px;
+}
+
+.grid div img:hover {
+	box-shadow: none;
+	color: none;
+}
+
+.grid div img:active {
+	color: none;
+}
 
 
 /* This structure refers to p elements that are direct children of the footer element */
