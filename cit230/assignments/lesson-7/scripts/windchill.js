@@ -6,4 +6,3 @@ function windChill(temp, speed){
 	var result = windChill(40, 5);
 
 	document.getElementById('output').innerHTML = result;
-
